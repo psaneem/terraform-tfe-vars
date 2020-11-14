@@ -3,7 +3,7 @@ provider "tfe"{
 }
 
 data "tfe_workspace" "example"{
-       name = var.tfe_workspace
+       name = var.workspace
        organization = var.tfe_organization
    }
    resource "tfe_variable" "test"{   
