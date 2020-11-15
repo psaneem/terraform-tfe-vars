@@ -2,7 +2,7 @@ variable "tfe_token"{
 
 }
 
-variable "workspace"{
+variable "tfe_workspace"{
 
 }
 
